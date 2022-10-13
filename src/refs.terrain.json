@@ -1,0 +1,18 @@
+{
+  "localterra": {
+    "FBL-project": {
+      "codeId": "42",
+      "contractAddresses": {
+        "default": "terra1xzjej47rf0chldqqymgse54q9evyqnxlcadde09ahn72v4g4f3ss8t06xq"
+      }
+    }
+  },
+  "testnet": {
+    "FBL-project": {
+      "codeId": "4803",
+      "contractAddresses": {
+        "default": "terra10l8h6cvt23vmc4mpjlvfcyq8ry3vf4pq59zx46jtxvewpglr20yqv7x853"
+      }
+    }
+  }
+}

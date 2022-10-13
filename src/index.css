@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn {
+  border: none;
+  outline: none;
+}
+
+.bet-amount-selector .btn {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.bet-amount-selector .btn.selected {
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  background: rgb(32, 35, 44);
+  color: white;
+}
+
+.bet-value-selector .btn {
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+.bet-value-selector .btn.selected {
+  box-shadow: 10px 5px 15px 0px rgba(0,0,0,0.75);
+  background: rgb(32, 35, 44);
+  color: white;
+}
