@@ -16,7 +16,7 @@ export const betAmountList = [
     },
     {
         id: 3,
-        value: 2000000,
+        value: 2500000,
         label: 250,
     },
 ];
